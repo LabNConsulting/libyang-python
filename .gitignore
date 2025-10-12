@@ -8,3 +8,5 @@ __pycache__/
 /.coverage
 /htmlcov
 /coverage.xml
+/.ccls-cache/
+/.mypy_cache/

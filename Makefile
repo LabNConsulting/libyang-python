@@ -12,7 +12,7 @@ tests:
 format:
 	tox -e format
 
-LYPY_COMMIT_RANGE ?= origin/master..
+LYPY_COMMIT_RANGE ?= origin/main..
 
 check-commits:
 	./check-commits.sh $(LYPY_COMMIT_RANGE)
